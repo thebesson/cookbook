@@ -11,7 +11,6 @@ export default class Home extends PureComponent {
   render () {
     return (
       <div className="main">
-          <button><Link to="/add">Добавить</Link></button>
               {this.props.children}
       </div>
     );

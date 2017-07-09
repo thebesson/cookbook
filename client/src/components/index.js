@@ -1,6 +1,6 @@
 import Add from './Add';
 import Home from './Home';
-import Recipes from './Recipes';
+import RecipesList from './RecipesList';
 
 // We export all the components at once
-export { Add, Home, Recipes };
+export { Add, Home, RecipesList };

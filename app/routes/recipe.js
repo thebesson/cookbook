@@ -24,7 +24,8 @@ const getRecipe = (req, res) => {
 //add a recipe
 const postRecipe = (req, res) => {
     let recipe = Object.assign(new Recipe(), req.body);
-    Recipe.save(err => {
+
+    recipe.save(err => {
         if (err) {
             res.send(err);
         }

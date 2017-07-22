@@ -4,12 +4,12 @@ import { Link } from 'react-router';
 export default class RecipesList extends PureComponent {
   render () {
     const { recipes } = this.props;
-    return (<div>{recipes.map(recipe => {
+    return (<div className="recipes-list">{recipes.map(recipe => {
         return (
-          <div>
-            <h1 className="cover-heading">{recipe.name}</h1>
-            <p className="lead">{recipe.description}</p>
-          </div>  
+          <article className="recipes-list__item">
+              <p className="recipes-list__image-placeholder"></p>
+              <h2 className="recipes-list__title">{recipe.name}</h2>
+          </article> 
         )
       })
     }</div>);

@@ -1,0 +1,13 @@
+/*recipes list*/
+.recipes-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.recipes-list__item {
+    margin: 5px;
+}
+.recipes-list__image-placeholder {
+    width: 210px;
+    height: 330px;
+    background-color: grey;
+}

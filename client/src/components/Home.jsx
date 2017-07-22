@@ -11,7 +11,9 @@ export default class Home extends PureComponent {
   render () {
     return (
       <div className="main">
+        <header>Navigation</header>
               {this.props.children}
+        <footer>Footer</footer>      
       </div>
     );
   }
